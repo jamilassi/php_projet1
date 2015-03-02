@@ -18,6 +18,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> 
     
     <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"> 
+    
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 	
     
     <!-- 

@@ -13,5 +13,6 @@
     <input type="email" class="form-control" id="email" name="email" <?php val($email);?> placeholder="Enter email address">
   </div>
   
-  <button type="submit" class="btn"><?php echo $button_text; ?></button>
+  <button type="submit" class="btn"><?php echo $button_text; ?></button><br>
+  <a href="index.php#about" class="btn "><span class="glyphicon glyphicon-remove">&nbsp;Close</span></a>
 </form>

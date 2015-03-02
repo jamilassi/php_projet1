@@ -48,6 +48,7 @@ include('php/connection.php');
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
   
 </head>
 
@@ -103,9 +104,10 @@ $ID = (isset($_GET['id']) && is_numeric($_GET['id']))? $_GET['id']:'';
                           <div >
                             <h3><?php echo $row['firstname'].' '.$row['lastname']; ?></h3>
                             <p><?php echo $row['email']; ?></p>
-                            <p><a href="#" class="btn " role="button">Email</a>
-                            	<a href="contact.php?id=<?php echo $row['client_id'];?>" class="btn " role="button">Update</a> 
-                               <a href="confirm.php?id=<?php echo $row['client_id'];?>"><span class="glyphicon glyphicon-remove">Remove</span></a>
+                            <p><a href="#" class="btn " role="button">Email</a>&bull;
+                            	<a href="contact.php?id=<?php echo $row['client_id'];?>"class="btn " role="button">Update</a>&bull;
+                               <a href="confirm.php?id=<?php echo $row['client_id'];?>"class="btn " role="button">Remove</span></a><br>
+                               <a href="index.php#about" class="btn "><span class="glyphicon glyphicon-remove">&nbsp;Close</span></a>
                             </p>
                           </div>
                         </div>

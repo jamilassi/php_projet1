@@ -12,7 +12,7 @@ include('php/header.php');
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Address Book</h1>
+                        <h1 class="brand-heading" style="font-family: 'Crete Round', serif;">Address Book</h1>
                         <p class="intro-text">Access to your Address Book</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
