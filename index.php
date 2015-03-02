@@ -59,7 +59,10 @@ include('php/header.php');
 <div class="col-md-8">
 	
     <div class="list-group">
+    <a href="contact.php" class="btn "><span class="glyphicon glyphicon-plus">&nbsp;Add New</span></a>
+    <br>
 	<?php show_contacts(); ?>
+    
     </div>
  </div>
  <div class="col-md-2">
