@@ -34,7 +34,7 @@ include('php/header.php');
                         function show_contacts()
                                     {
                                     global $mysqli;
-                                    $query = "SELECT * FROM clients";
+                                    $query = "SELECT * FROM contacts";
                                     $html ='<a href="%s" class="list-group-item ">';
                                     $html.='<h4 class="list-group-item-heading">%s</h4>';
                                     $html.='<p class="list-group-item-text">%s</p>';

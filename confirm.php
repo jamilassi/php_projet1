@@ -15,7 +15,7 @@ include('php/connection.php');
 	if ( $ID != '' && $action=='delete') 
 				{
 				
-				$query = "DELETE FROM clients WHERE client_id=%d";
+				$query = "DELETE FROM contacts WHERE client_id=%d";
 				$query = sprintf($query,$ID);
 				
 				$mysqli->query($query);

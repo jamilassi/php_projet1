@@ -14,5 +14,5 @@ $filename   = ltrim($_SERVER['SCRIPT_NAME'],'/');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', 'root');
-define('DB_NAME', 'company');
+define('DB_NAME', 'MySql_local');
 
